@@ -1,7 +1,4 @@
-# exam-1
-Exam 1 for ECE231
-
-# Addining additional functions using linked lists
+# Exam-1: Adding additional functions using linked lists
 
 In this exam you will be adding 4 functions to existing code. This existing code is from the `DoubleLinkedList` folder from homework 1. These are the 4 functions are:
     
@@ -14,7 +11,7 @@ Let's talk about each function.
 
 ## linked_sum
 
-For this function, you will sum all the integers that belong to a linked list. So if I have a linked list of 4 nodes, and the values of the nodes are described as $1, 2, 3, 4$, if I call the function `linked_sum` I should get a result of $10$. A way to create this function is to create a variable to accumulate the values of the linked list. You can get all the values from the linked list by iterating through the linked list. Here is the `function prototype`:
+For this function, you will sum all the integers that belong to a linked list. So if I have a linked list of 4 nodes, and the values of the nodes are described as `1, 2, 3, 4`, if I call the function `linked_sum` I should get a result of `10`. A way to create this function is to create a variable to accumulate the values of the linked list. You can get all the values from the linked list by iterating through the linked list. Here is the `function prototype`:
 ```cpp
 int linked_sum(DoubleLinkedList *root_node);
 ```
@@ -51,7 +48,7 @@ void linked_increment(DoubleLinkedList *root_node) {
 
 ## Source code
 
-Source code for this exam will be provided via this git: `https://github.com/UNMECE231Fa2020/exam-1`. You should not have to edit `main.c`, nor `double_linked_list.h`. `You will have to edit dll_functions.c`. A Makefile will be provided to make compiling easier. `To download the exam to your computer please accept it on UNM Learn`. `To submit your exam, please push to your git`. You will then have to type:
+You should not have to edit `main.c`, nor `double_linked_list.h`. `You will have to edit dll_functions.c`. A Makefile will be provided to make compiling easier. `To download the exam to your computer please accept it on UNM Learn`. `To submit your exam, please push to your git`. You will then have to type:
 
     git clone https://github.com/UNMECE231Fa2020/<your github username>
     
@@ -92,5 +89,4 @@ Linked lists decremented by 1
 |linked_scale         |20     |
 |linked_decrement     |20     |
 |Readable, clean code |10     |
-|---------------------|-------|
 |Total                |100    |
